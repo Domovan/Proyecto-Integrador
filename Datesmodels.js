@@ -1,0 +1,86 @@
+import { Schema, model } from "mongoose";
+
+const DateSchema = new Schema({
+    pregunta1:{
+        type: String,
+        required:true,
+    },
+    pregunta2:{
+        type:String,
+        required:true,
+    },
+    pregunta3:{
+        type:String,
+        required:true,
+    },
+    pregunta4:{
+        type:String,
+        required:true
+    },
+    pregunta5:{
+        type:String,
+        required:true,
+    },
+    pregunta6:{
+        type:String,
+        required:true,
+    },
+    pregunta7:{
+        type: String,
+        required:true,
+    },
+    pregunta8:{
+        type:String,
+        required:true,
+    },
+    pregunta9:{
+        type:String,
+        required:true,
+    },
+    pregunta10:{
+        type:String,
+        required:true,
+    },
+    pregunta11:{
+        type:String,
+        required:true,
+    },
+    pregunta12:{
+        type:String,
+        required:true,
+    },
+    pregunta13:{
+        type:String,
+        required:true,
+    },
+    pregunta14:{
+        type:String,
+        required:true,
+    },
+    pregunta15:{
+        type:String,
+        required:true,
+    },
+    pregunta16:{
+        type:String,
+        required:true,
+    },
+    pregunta17:{
+        type:String,
+        required:true,
+    },
+    pregunta18:{
+        type:String,
+        required:true,
+    },
+    pregunta19:{
+        type:String,
+        required:true,
+    },
+    pregunta20:{
+        type:String,
+        required:true,
+    },
+    });
+
+    export const DatesModel = model ("dates" , DateSchema)
